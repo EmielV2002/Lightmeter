@@ -48,7 +48,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -165,8 +171,21 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.5
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.1,
+          "drill": 0.7
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -469,8 +488,20 @@
   },
   "sheets": [
     [
-      "5603515b-aad6-4a40-a765-3d5057238225",
+      "3dc21118-c53e-4134-8f8e-e8a59e9e98bf",
       ""
+    ],
+    [
+      "bffd3ecf-0f6c-40f7-9920-d34cf4d18cf3",
+      "Power"
+    ],
+    [
+      "4376681d-7ba3-43d8-92be-51ef5c4c73ee",
+      "Flash"
+    ],
+    [
+      "40547eb3-7a76-4821-b1ce-dd2f0596a489",
+      "LiPo"
     ]
   ],
   "text_variables": {}
