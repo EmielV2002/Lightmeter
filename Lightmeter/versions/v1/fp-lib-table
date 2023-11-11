@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "FRDM-KL25Z")(type "KiCad")(uri "C:/Users/emiel/Downloads/FRDM-KL25Z/FRDM-KL25Z.pretty")(options "")(descr ""))
+)
